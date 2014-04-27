@@ -27,7 +27,7 @@ VHOST=$(cat <<EOF
   ServerName localhost
   <Directory "/vagrant/public">
     AllowOverride All
-    Require granted all
+    Require all granted
   </Directory>
 </VirtualHost>
 EOF
