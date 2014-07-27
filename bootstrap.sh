@@ -72,7 +72,7 @@ apt-get -q -y install mysql-server-5.5
 
 # Git
 # ---
-apt-get install git-core
+apt-get install -y git-core
 
 # Install Composer
 # ----------------
